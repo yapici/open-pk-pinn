@@ -11,18 +11,21 @@ Inspired by closed-industry papers that offer no usable tools, this project will
 
 ## Current Features
 - Baseline 1-compartment PINN model (PyTorch)
-- Simulated toy dataset (IV bolus)
-- Google Colab notebook with training and visualization
+- Public IV bolus dataset: oxypeucedanin 10 mg/kg (rat)
+- Modular training and plotting notebook (`train_oxypeucedanin_10mgkg.ipynb`)
 
 ## Roadmap
 - [ ] 2- and 3-compartment PINNs
-- [ ] Public PK data ingestion (e.g. PK-DB)
+- [ ] Additional compounds and dosing routes
 - [ ] Reproducible benchmarking on test sets
 - [ ] API or model serving demo
 
 ## How to Run
-You can run the Colab notebook directly in your browser:
-👉 [01_train_baseline.ipynb](notebooks/01_train_baseline.ipynb)
+You can run the main notebook locally or in Google Colab:
+👉 [`notebooks/train_oxypeucedanin_10mgkg.ipynb`](notebooks/train_oxypeucedanin_10mgkg.ipynb)
+
+## Data
+The dataset is publicly available and referenced in [`data/README.md`](data/README.md).
 
 ## License
 MIT License
